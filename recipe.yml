@@ -3,7 +3,6 @@ description: 'Installs Zoocha Links Component'
 type: 'Feature'
 recipes:
   - zr-media-bundle
-  - zr-layout-builder-bundle
   - zr-paragraph-bundle
 
 config:
