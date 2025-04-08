@@ -1,17 +1,17 @@
-uuid: 89a5cc2e-5425-464d-ace1-234fb092e10a
+uuid: 99209e2c-74a2-4294-ad07-54729a2b7fac
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.paragraph.field_link_item
-    - paragraphs.paragraphs_type.link
     - paragraphs.paragraphs_type.link_item
+    - paragraphs.paragraphs_type.links
   module:
     - entity_reference_revisions
-id: paragraph.link.field_link_item
+id: paragraph.links.field_link_item
 field_name: field_link_item
 entity_type: paragraph
-bundle: link
+bundle: links
 label: 'Link Item'
 description: ''
 required: false
@@ -25,40 +25,25 @@ settings:
       link_item: link_item
     negate: 0
     target_bundles_drag_drop:
-      accordion:
-        weight: 13
-        enabled: false
-      accordion_item:
-        weight: 14
-        enabled: false
-      call_to_action:
-        weight: 15
-        enabled: false
       card_item:
-        weight: 17
+        weight: 9
         enabled: false
       cards:
-        weight: 16
+        weight: 8
         enabled: false
       copy:
-        weight: 18
+        weight: 10
         enabled: false
       embedded_view:
-        weight: 19
-        enabled: false
-      hero:
-        weight: 20
-        enabled: false
-      link:
-        weight: 21
+        weight: 11
         enabled: false
       link_item:
-        weight: 22
+        weight: 13
         enabled: true
-      media_content:
-        weight: 23
+      links:
+        weight: 12
         enabled: false
-      webform:
-        weight: 24
+      media_content:
+        weight: 14
         enabled: false
 field_type: entity_reference_revisions

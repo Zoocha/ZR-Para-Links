@@ -1,20 +1,20 @@
-uuid: 73e39444-9169-46e0-9b97-998bc9ea418c
+uuid: f9e3215b-e09f-411a-84ef-538a74bae936
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.link.field_link_item
-    - paragraphs.paragraphs_type.link
+    - field.field.paragraph.links.field_link_item
+    - paragraphs.paragraphs_type.links
   module:
     - entity_reference_revisions
-id: paragraph.link.default
+id: paragraph.links.default
 targetEntityType: paragraph
-bundle: link
+bundle: links
 mode: default
 content:
   field_link_item:
     type: entity_reference_revisions_entity_view
-    label: above
+    label: hidden
     settings:
       view_mode: default
       link: ''

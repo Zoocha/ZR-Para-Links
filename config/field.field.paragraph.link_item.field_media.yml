@@ -7,6 +7,8 @@ dependencies:
     - media.type.image
     - media.type.video
     - paragraphs.paragraphs_type.link_item
+_core:
+  default_config_hash: mkta2wae6EafE2m37DuexAQESEEt7wXUa8hvum6L_yY
 id: paragraph.link_item.field_media
 field_name: field_media
 entity_type: paragraph

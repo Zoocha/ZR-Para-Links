@@ -8,6 +8,8 @@ dependencies:
     - paragraphs.paragraphs_type.link_item
   module:
     - linkit
+_core:
+  default_config_hash: cUBbm75CKrKEaP7sPnT9hwopkMK0Bq2eMYVR3QmGO5M
 id: paragraph.link_item.default
 targetEntityType: paragraph
 bundle: link_item

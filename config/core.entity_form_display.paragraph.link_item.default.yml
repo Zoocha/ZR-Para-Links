@@ -9,6 +9,8 @@ dependencies:
   module:
     - linkit
     - media_library
+_core:
+  default_config_hash: DyrXq0IeDm4Dwv6k-GEqN064nZyKV8lmVn9M2cX4fsE
 id: paragraph.link_item.default
 targetEntityType: paragraph
 bundle: link_item

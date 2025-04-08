@@ -1,9 +1,9 @@
-uuid: 38341e98-d451-4136-885a-fbf54ab49dcb
+uuid: c424078d-179d-40ce-aa4b-b186272441b5
 langcode: en
 status: true
 dependencies: {  }
-id: link
-label: Link
+id: links
+label: Links
 icon_uuid: null
 icon_default: null
 description: ''

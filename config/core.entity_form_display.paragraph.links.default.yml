@@ -1,15 +1,15 @@
-uuid: fba71719-f12e-4338-964c-df1d130bd699
+uuid: 8ce298a6-3583-4dfc-b8d8-f0ee8809ad4e
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.link.field_link_item
-    - paragraphs.paragraphs_type.link
+    - field.field.paragraph.links.field_link_item
+    - paragraphs.paragraphs_type.links
   module:
     - paragraphs
-id: paragraph.link.default
+id: paragraph.links.default
 targetEntityType: paragraph
-bundle: link
+bundle: links
 mode: default
 content:
   field_link_item:
