@@ -17,7 +17,7 @@ mode: default
 content:
   field_link:
     type: linkit
-    label: above
+    label: hidden
     settings:
       trim_length: 80
       url_only: false
@@ -30,7 +30,7 @@ content:
     region: content
   field_media:
     type: entity_reference_entity_view
-    label: above
+    label: hidden
     settings:
       view_mode: default
       link: false
